@@ -58,10 +58,10 @@ const Mission = () => {
                 </p>
                 <footer className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple to-purple-light flex items-center justify-center text-white font-bold">
-                    EV
+                    EH
                   </div>
                   <div>
-                    <p className="font-medium">The EduVerse Team</p>
+                    <p className="font-medium">The EduHUB Team</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Founders & Educators</p>
                   </div>
                 </footer>
