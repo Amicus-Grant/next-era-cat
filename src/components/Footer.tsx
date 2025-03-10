@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="text-2xl font-bold hero-text-gradient mb-4 inline-block">
-              EduVerse
+              EduHub
             </Link>
             <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-xs">
               Transforming education through immersive AR/VR experiences and adaptive AI learning.
@@ -112,7 +112,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-gray-200 dark:border-charcoal-light flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 dark:text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} EduVerse. All rights reserved.
+            © {new Date().getFullYear()} EduHub. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-purple transition-colors duration-300">
