@@ -36,7 +36,7 @@ const Navbar = () => {
           to="/" 
           className="text-2xl font-bold flex items-center gap-1 hero-text-gradient"
         >
-          <span className="opacity-0 animate-fade-in">EduHub</span>
+          <span className="opacity-0 animate-fade-in">EduHUB</span>
         </Link>
 
         {/* Desktop Menu */}
