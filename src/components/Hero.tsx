@@ -62,10 +62,6 @@ const Hero = () => {
             <AnimatedButton size="lg" icon={<ArrowRight size={18} />}>
               Get Started
             </AnimatedButton>
-            
-            <AnimatedButton variant="outline" size="lg">
-              Try Demo
-            </AnimatedButton>
           </div>
         </div>
         

@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
-import AnimatedButton from './ui/AnimatedButton';
-import { Play, ChevronRight } from 'lucide-react';
+import { Play } from 'lucide-react';
 
 const Demo = () => {
   const [activeTab, setActiveTab] = useState<'ar' | 'vr' | 'ai'>('vr');
@@ -116,10 +115,6 @@ const Demo = () => {
                 </div>
               ))}
             </div>
-            
-            <AnimatedButton icon={<ChevronRight size={16} />}>
-              Try It Now
-            </AnimatedButton>
           </div>
         </div>
       </div>
