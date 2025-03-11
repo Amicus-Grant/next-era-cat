@@ -46,17 +46,16 @@ const Footer = () => {
               {[
                 { label: 'Features', href: '#features' },
                 { label: 'Mission', href: '#mission' },
-                { label: 'Demo', href: '#demo' },
                 { label: 'Pricing', href: '#' },
-                { label: 'Contact Us', href: '#' },
+                { label: 'Contact Us', href: '/contact' },
               ].map((link, i) => (
                 <li key={i}>
-                  <a 
-                    href={link.href}
+                  <Link 
+                    to={link.href}
                     className="text-gray-600 dark:text-gray-300 hover:text-purple transition-colors duration-300"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
